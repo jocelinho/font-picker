@@ -1,0 +1,8 @@
+xcuserdata/
+
+.build/
+
+.DS_Store
+
+*.xcconfig
+!*.xcconfig.example

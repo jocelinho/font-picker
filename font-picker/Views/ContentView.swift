@@ -69,8 +69,21 @@ struct ContentView: View {
                                        endPoint: .trailing))
             .cornerRadius(cornerRadius)
             
+            HStack {
+                Image(systemName: "magnifyingglass")
+                    .foregroundColor(.gray)
+                TextField("Search fonts", text: $viewModel.searchedText)
+            }
+            .padding()
+            .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 2)
+            .overlay(
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .stroke(Color.blue.opacity(0.5), lineWidth: 1)
+            )
+            .cornerRadius(cornerRadius)
+            .cornerRadius(cornerRadius)
             
-            List(viewModel.fonts) { font in
+            List(viewModel.displayedFonts) { font in
                 FontRowView(font: font,
                             isDownloaded: viewModel.downloadedFontFamilies.contains(font.family),
                             textSize: textSize,

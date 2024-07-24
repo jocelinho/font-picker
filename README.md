@@ -2,6 +2,12 @@
 
 Font Picker is an iOS application that allows users to browse, download, and preview various fonts. This app demonstrates how to work with custom fonts, download assets, and manage API keys securely in an iOS environment.
 
+## Demo
+![Simulator Screenshot - iPhone 14 Pro - 2024-07-24 at 13 35 39](https://github.com/user-attachments/assets/798aaa81-07b4-49b2-937e-598d4de90416)
+
+
+[👉 Click here for video demo ](https://youtube.com/shorts/yaOaKSm2Ybo?feature=share)
+
 ## Features
 
 - Browse a list of fonts from Google Fonts API
